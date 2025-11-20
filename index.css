@@ -1313,7 +1313,7 @@ footer p {
 
 
 
-@media (max-width: 580px) {
+@media (max-width: 620px) {
   #page1container {
    width: 700px
   }
@@ -1486,11 +1486,14 @@ footer p {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .nav {
     height: 73px;
     width: 100%;
     display: flex;
+  }
+  #page1 {
+    min-height: calc(70vh);
   }
   #page1left {
     max-width: 100%;
@@ -1534,10 +1537,10 @@ footer p {
     height: 75px;
     width: 75px;
   }
-  .page3box {
-    height: 171px;
-    width: 32%;
-  }
+     .page3box {
+        height: 209px;
+        width: 51%;
+    }
   #page4header h1 {
     font-size: 42px;
     color: #252525;
@@ -1655,7 +1658,7 @@ footer p {
     width: 100%;
   }
   #Fcontainer {
-    max-width: 295px;
+    max-width: 347px;
   }
   footer p {
     font-size: 12px;
