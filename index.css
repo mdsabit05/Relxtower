@@ -61,7 +61,7 @@ a {
 
 /* ...Page1... */
 #page1 {
-  min-height: calc(100vh);
+  min-height: calc(100vh - 89px);
   max-width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url(image/slider_img01.jpg);
@@ -1055,7 +1055,7 @@ footer p {
     display: block;
   }
   #page1 {
-    height: 700px;
+    min-height: calc(60vh - 89px);
   }
   #page1left {
     max-width: 100%;
@@ -1184,6 +1184,10 @@ footer p {
   #page1left {
     width: 700px;
   }
+    #page1 {
+    min-height: calc(60vh - 89px);
+  }
+  
   #page1container {
     display: flex;
     justify-content: center;
